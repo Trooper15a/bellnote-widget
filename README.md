@@ -1,6 +1,6 @@
 # Bellnote Widget
 
-The embeddable changelog widget that powers [Bellnote](https://bellnote.dev) — the changelog that writes itself.
+The embeddable changelog widget that powers [Bellnote](https://bellnote.dev/?utm_source=github-widget&utm_medium=readme) — the changelog that writes itself.
 
 **One script tag. A bell, an unread badge, and your updates — in under 5 KB gzipped.**
 
@@ -46,7 +46,7 @@ The widget derives its API base from the origin of its own `<script src>` and ca
 | `GET /w/:projectId/entries` | latest published entries, sanitized HTML |
 | `POST /w/:projectId/events` | views, opens, reactions, subscribes (202, async) |
 
-You can point it at any backend that implements those three — including [Bellnote](https://bellnote.dev), which also drafts your changelog entries from GitHub merges with AI, learns your voice, and publishes everywhere (widget, hosted page, email, Slack, RSS) for one flat price.
+You can point it at any backend that implements those three — including [Bellnote](https://bellnote.dev/?utm_source=github-widget&utm_medium=readme), which also drafts your changelog entries from GitHub merges with AI, learns your voice, and publishes everywhere (widget, hosted page, email, Slack, RSS) for one flat price.
 
 ## Development
 
