@@ -1,0 +1,22 @@
+{
+  "name": "@bellnote/widget",
+  "version": "0.1.0",
+  "description": "The Bellnote embeddable changelog widget — bell + unread badge, <5KB core, no cookies, one script tag.",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Trooper15a/bellnote-widget.git"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs && node scripts/check-size.mjs",
+    "size": "node scripts/check-size.mjs",
+    "test": "node --import tsx --test src/css.test.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  }
+}
